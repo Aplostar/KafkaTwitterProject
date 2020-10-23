@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TwitterProducer {
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
-    List<String> terms = Lists.newArrayList("kafka  ");
+    List<String> terms = Lists.newArrayList("kafka","modi");
 
     public TwitterProducer(){
     }
